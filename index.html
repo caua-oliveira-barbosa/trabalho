@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quem eu sou</title>
+    <link rel="stylesheet" href="sitecss.css">
+
+    <style>
+        header {
+            margin-left: 10%;
+            display: flex;
+            color: white;
+
+        }
+
+        img {
+            display: flex;
+            border-radius: 360%;
+            height: 500px;
+            width: 500px;
+            margin-left: 30%;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="titulo"> Quem eu sou</h1>
+
+    <header>Meu nome é Cauã Oliveira Barbosa tenho 17 anos estou no segundo ano do ensino médio e estudo desenvolvimento
+        de sistema no senai</header>
+
+    <img src="batman.jpg" alt="batman">
+
+    <h1 id="listdehab">Lista de habilidades:</h1>
+    <table id="table">
+
+        <tr>
+            <th>Html e css: </th>
+            <th>Personalização de sites nível avançado</th>
+        </tr>
+
+        <tr>
+            <th>javascript: </th>
+            <th>Básico de javascript e lógica de programação</th>
+        </tr>
+
+    </table>
+
+    <h2 style="color: white;">Me contate</h2>
+    <form action="/action_page.php">
+        <label for="email" style="color: white;">Digite seu email:</label><br>
+        <input type="text" id="fname" name="fname" value="email"><br>
+        <label for="telefone" style="color: white;">Digite seu telefone:</label><br>
+        <input type="text" id="lname" name="lname" value="telefone"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
